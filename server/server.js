@@ -6,6 +6,7 @@ const { connectDB } = require('./config/db')
 const swaggerUI = require('swagger-ui-express')
 const swaggerJsDoc = require('swagger-jsdoc')
 
+
 //options object for swaggerjs
 const options = {
   definition: {
@@ -40,7 +41,7 @@ app.use(cors())
 
 
 // Routes imports
-const countDownRoutes = require('./routes/CountDownRoutes')
+const countDownRoutes = require('./routes/CountDownRoute')
 
 
 
